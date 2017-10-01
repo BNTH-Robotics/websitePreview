@@ -1,0 +1,55 @@
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+.headLogo
+{
+    width: 40em;
+}
+.navigation
+{
+    height: 100%;
+    overflow-x:hidden;
+    position:fixed;
+    transition:.5s;
+    width:0px;
+    z-index: :1;
+}
+.navigation a
+{
+
+    background-color:ghostwhite;
+    color:black;
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+    transition 0.3s;
+    white-space: nowrap;
+    
+    
+    
+}
+.root
+{
+    background-color:whitesmoke;
+    color:black;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    text-decoration: none;
+}
+.root a
+{
+    font-size:2rem;
+}
+.root h
+{
+    font-size:3rem;
+}
+.noNav
+{
+    margin-left:0%;
+    transition:margin-left 0.5s;
+}
